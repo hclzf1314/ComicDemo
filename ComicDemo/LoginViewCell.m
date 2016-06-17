@@ -7,11 +7,11 @@
 //
 
 #import "LoginViewCell.h"
-
+#import "Public.h"
 @implementation LoginViewCell
 
 - (void)awakeFromNib {
-    // Initialization code
+    //self.frame=CGRectMake(0, 0, screen_width, 50);
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

@@ -9,5 +9,14 @@
 #ifndef Public_h
 #define Public_h
 
+// 1.屏幕大小尺寸
+#define screen_width [UIScreen mainScreen].bounds.size.width
+#define screen_height [UIScreen mainScreen].bounds.size.height
+
+
+
+
+
+
 
 #endif /* Public_h */

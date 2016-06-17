@@ -10,4 +10,7 @@
 
 @interface HomeViewController : UIViewController
 
+@property(nonatomic,strong)NSArray *urlsArray;
+@property(nonatomic,strong)UITableView *tableView;
+
 @end
