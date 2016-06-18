@@ -27,14 +27,18 @@
         NSString *httpUrl = @"http://apis.baidu.com/3023/news/channel";
         NSString *httpArg = @"id=popular&page=1";
         _myData=[[JsonData alloc]init];
-        //[self.myData request: httpUrl withHttpArg: httpArg];
+  
         
+        [self.myData request: httpUrl withHttpArg:httpArg whenSuccess:^(NSDictionary *dict) {
+            NSDictionary *dic1=dict[@"data"];
+            NSArray *jsonArray=dic1[@"article"];
         for (int i=0; i<5; i++) {
-            _myData.dic=_myData.jsonArray[i];
-            _myData.imgurl=_myData.dic[@"img"];
-            self.urlsArray=@[@"_myData.img"];
-        };
-        
+   
+            NSDictionary *dic = jsonArray[i];
+            NSString *imgString=dic[@"img"];
+            NSArray *urlsArray =@[@"%@",imgString];
+      }
+        } ];
         /*
          NSArray* urlsArray =@[
          @"http://img.pconline.com.cn/images/upload/upc/tx/wallpaper/1602/26/c0/18646722_1456498424671_800x600.jpg",
@@ -47,7 +51,7 @@
         
         
         BHInfiniteScrollView* infinitePageView1 = [BHInfiniteScrollView
-                                                   infiniteScrollViewWithFrame:CGRectMake(0, 0, 320, 150) Delegate:self ImagesArray:self.urlsArray];
+                                                   infiniteScrollViewWithFrame:CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.height) Delegate:self ImagesArray:self.urlsArray];
         //infinitePageView1.titlesArray = titlesArray;
         infinitePageView1.dotSize = 10;
         infinitePageView1.pageControlAlignmentOffset = CGSizeMake(0, 20);

@@ -20,7 +20,7 @@
 
     _jsondata=data;
     
-    NSURL *imgUrl=[NSURL URLWithString:_jsondata.imgurl];
+    self.imgUrl=[NSURL URLWithString:_jsondata.imgurl];
     //self.imageView=[UIImage imageWithData:[NSData dataWithContentsOfURL:imgUrl]];
     
     

@@ -33,6 +33,8 @@
 		F446C7F31D0DC27C00433F58 /* PopViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F446C7F11D0DC27C00433F58 /* PopViewCell.xib */; };
 		F446C7F71D0DC38200433F58 /* DynamicViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F446C7F51D0DC38200433F58 /* DynamicViewCell.m */; };
 		F446C7F81D0DC38200433F58 /* DynamicViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F446C7F61D0DC38200433F58 /* DynamicViewCell.xib */; };
+		F446EFD41D157AF60074B1C9 /* PoPCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F446EFD21D157AF60074B1C9 /* PoPCollectionViewCell.m */; };
+		F446EFD51D157AF60074B1C9 /* PoPCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F446EFD31D157AF60074B1C9 /* PoPCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +102,9 @@
 		F446C7F41D0DC38200433F58 /* DynamicViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicViewCell.h; sourceTree = "<group>"; };
 		F446C7F51D0DC38200433F58 /* DynamicViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicViewCell.m; sourceTree = "<group>"; };
 		F446C7F61D0DC38200433F58 /* DynamicViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DynamicViewCell.xib; sourceTree = "<group>"; };
+		F446EFD11D157AF60074B1C9 /* PoPCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoPCollectionViewCell.h; sourceTree = "<group>"; };
+		F446EFD21D157AF60074B1C9 /* PoPCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoPCollectionViewCell.m; sourceTree = "<group>"; };
+		F446EFD31D157AF60074B1C9 /* PoPCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PoPCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -341,6 +346,9 @@
 				F446C7F41D0DC38200433F58 /* DynamicViewCell.h */,
 				F446C7F51D0DC38200433F58 /* DynamicViewCell.m */,
 				F446C7F61D0DC38200433F58 /* DynamicViewCell.xib */,
+				F446EFD11D157AF60074B1C9 /* PoPCollectionViewCell.h */,
+				F446EFD21D157AF60074B1C9 /* PoPCollectionViewCell.m */,
+				F446EFD31D157AF60074B1C9 /* PoPCollectionViewCell.xib */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -501,6 +509,7 @@
 				F4348BDD1D0C553100FDB6F6 /* Main.storyboard in Resources */,
 				F446C7F31D0DC27C00433F58 /* PopViewCell.xib in Resources */,
 				F4348C431D0C795800FDB6F6 /* OtherTableViewCell.xib in Resources */,
+				F446EFD51D157AF60074B1C9 /* PoPCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,6 +584,7 @@
 			files = (
 				F4348C331D0C6B3F00FDB6F6 /* LoginViewCell.m in Sources */,
 				F4348C3D1D0C77AD00FDB6F6 /* DowlodViewCell.m in Sources */,
+				F446EFD41D157AF60074B1C9 /* PoPCollectionViewCell.m in Sources */,
 				F4348BDA1D0C553100FDB6F6 /* ViewController.m in Sources */,
 				F42DB8641D0DA73200D4760C /* HomeViewController.m in Sources */,
 				F446C7ED1D0DC22100433F58 /* ImgViewCell.m in Sources */,

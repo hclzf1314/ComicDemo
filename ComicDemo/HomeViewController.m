@@ -32,19 +32,7 @@
     self.tableView.dataSource = self;
     [self.view addSubview:self.tableView];
 
-    NSString *httpUrl = @"http://apis.baidu.com/3023/news/channel";
-    NSString *httpArg = @"id=popular&page=1";
-    _myData=[[JsonData alloc]init];
-    
-    //[self.myData request: httpUrl withHttpArg: httpArg];
-    
-    
-  
-
 }
-
-
-
 
 
 
@@ -65,7 +53,7 @@
     if (indexPath.section==0) {
         return 150;
     }else if(indexPath.section==1){
-        return 40;
+        return 180;
     }else{
         return 70;
     
@@ -107,13 +95,12 @@
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         return cell;
     }else{
-        
         static NSString *cellIndentifier=@"DynamicCell";
         DynamicViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIndentifier];
         if (cell == nil) {
             //IB中创建cell
             cell = [[[NSBundle mainBundle] loadNibNamed:@"DynamicViewCell" owner:self options:nil] lastObject];
-            
+
         }
         NSString *httpUrl = @"http://apis.baidu.com/3023/news/channel";
         NSString *httpArg = @"id=popular&page=1";
@@ -137,10 +124,9 @@
             
             
         } ];
-        
+
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         return cell;
-
         
     }
 
