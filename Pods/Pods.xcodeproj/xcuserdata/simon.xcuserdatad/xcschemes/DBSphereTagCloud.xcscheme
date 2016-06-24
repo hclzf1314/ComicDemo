@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E447F80B50ADE8614A6DAE2F5D92BEA8'
-               BlueprintName = 'Pods-ComicDemo'
+               BlueprintIdentifier = '075C1CCAF759B1B71AEBD2142B686A63'
+               BlueprintName = 'DBSphereTagCloud'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-ComicDemo.a'>
+               BuildableName = 'libDBSphereTagCloud.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

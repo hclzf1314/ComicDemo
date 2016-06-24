@@ -35,6 +35,17 @@
 		F446C7F81D0DC38200433F58 /* DynamicViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F446C7F61D0DC38200433F58 /* DynamicViewCell.xib */; };
 		F446EFD41D157AF60074B1C9 /* PoPCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F446EFD21D157AF60074B1C9 /* PoPCollectionViewCell.m */; };
 		F446EFD51D157AF60074B1C9 /* PoPCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F446EFD31D157AF60074B1C9 /* PoPCollectionViewCell.xib */; };
+		F47C5FB11D1D95E60099EE08 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F47C5FB01D1D95E60099EE08 /* SearchViewController.m */; };
+		F47C5FB31D1D99140099EE08 /* SearchNamePlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = F47C5FB21D1D99140099EE08 /* SearchNamePlist.plist */; };
+		F47C5FB51D1DA6540099EE08 /* back_day@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F47C5FB41D1DA6540099EE08 /* back_day@2x.png */; };
+		F4AF18C61D16F90E00456697 /* icon_tabbar_home_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F4AF18BE1D16F90E00456697 /* icon_tabbar_home_selected.png */; };
+		F4AF18C71D16F90E00456697 /* icon_tabbar_home.png in Resources */ = {isa = PBXBuildFile; fileRef = F4AF18BF1D16F90E00456697 /* icon_tabbar_home.png */; };
+		F4AF18C81D16F90E00456697 /* icon_tabbar_hot_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F4AF18C01D16F90E00456697 /* icon_tabbar_hot_selected.png */; };
+		F4AF18C91D16F90E00456697 /* icon_tabbar_hot.png in Resources */ = {isa = PBXBuildFile; fileRef = F4AF18C11D16F90E00456697 /* icon_tabbar_hot.png */; };
+		F4AF18CA1D16F90E00456697 /* icon_tabbar_me_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F4AF18C21D16F90E00456697 /* icon_tabbar_me_selected.png */; };
+		F4AF18CB1D16F90E00456697 /* icon_tabbar_me.png in Resources */ = {isa = PBXBuildFile; fileRef = F4AF18C31D16F90E00456697 /* icon_tabbar_me.png */; };
+		F4AF18CC1D16F90E00456697 /* icon_tabbar_search_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = F4AF18C41D16F90E00456697 /* icon_tabbar_search_selected.png */; };
+		F4AF18CD1D16F90E00456697 /* icon_tabbar_search.png in Resources */ = {isa = PBXBuildFile; fileRef = F4AF18C51D16F90E00456697 /* icon_tabbar_search.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +116,18 @@
 		F446EFD11D157AF60074B1C9 /* PoPCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoPCollectionViewCell.h; sourceTree = "<group>"; };
 		F446EFD21D157AF60074B1C9 /* PoPCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoPCollectionViewCell.m; sourceTree = "<group>"; };
 		F446EFD31D157AF60074B1C9 /* PoPCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PoPCollectionViewCell.xib; sourceTree = "<group>"; };
+		F47C5FAF1D1D95E60099EE08 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		F47C5FB01D1D95E60099EE08 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		F47C5FB21D1D99140099EE08 /* SearchNamePlist.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = SearchNamePlist.plist; sourceTree = "<group>"; };
+		F47C5FB41D1DA6540099EE08 /* back_day@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back_day@2x.png"; path = "未命名文件夹/back_day@2x.png"; sourceTree = "<group>"; };
+		F4AF18BE1D16F90E00456697 /* icon_tabbar_home_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tabbar_home_selected.png; sourceTree = "<group>"; };
+		F4AF18BF1D16F90E00456697 /* icon_tabbar_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tabbar_home.png; sourceTree = "<group>"; };
+		F4AF18C01D16F90E00456697 /* icon_tabbar_hot_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tabbar_hot_selected.png; sourceTree = "<group>"; };
+		F4AF18C11D16F90E00456697 /* icon_tabbar_hot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tabbar_hot.png; sourceTree = "<group>"; };
+		F4AF18C21D16F90E00456697 /* icon_tabbar_me_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tabbar_me_selected.png; sourceTree = "<group>"; };
+		F4AF18C31D16F90E00456697 /* icon_tabbar_me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tabbar_me.png; sourceTree = "<group>"; };
+		F4AF18C41D16F90E00456697 /* icon_tabbar_search_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tabbar_search_selected.png; sourceTree = "<group>"; };
+		F4AF18C51D16F90E00456697 /* icon_tabbar_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_tabbar_search.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +215,16 @@
 		F4348BD21D0C553100FDB6F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F4AF18AB1D16F78100456697 /* Photos */,
+				F4AF18BE1D16F90E00456697 /* icon_tabbar_home_selected.png */,
+				F4AF18BF1D16F90E00456697 /* icon_tabbar_home.png */,
+				F47C5FB41D1DA6540099EE08 /* back_day@2x.png */,
+				F4AF18C01D16F90E00456697 /* icon_tabbar_hot_selected.png */,
+				F4AF18C11D16F90E00456697 /* icon_tabbar_hot.png */,
+				F4AF18C21D16F90E00456697 /* icon_tabbar_me_selected.png */,
+				F4AF18C31D16F90E00456697 /* icon_tabbar_me.png */,
+				F4AF18C41D16F90E00456697 /* icon_tabbar_search_selected.png */,
+				F4AF18C51D16F90E00456697 /* icon_tabbar_search.png */,
 				F4348BD31D0C553100FDB6F6 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -363,6 +396,7 @@
 		F4348C141D0C595000FDB6F6 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				F47C5FB21D1D99140099EE08 /* SearchNamePlist.plist */,
 			);
 			name = Search;
 			sourceTree = "<group>";
@@ -386,8 +420,18 @@
 		F4348C271D0C68DE00FDB6F6 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				F47C5FAF1D1D95E60099EE08 /* SearchViewController.h */,
+				F47C5FB01D1D95E60099EE08 /* SearchViewController.m */,
 			);
 			name = Search;
+			sourceTree = "<group>";
+		};
+		F4AF18AB1D16F78100456697 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Photos;
+			path = "未命名文件夹";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -499,17 +543,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4AF18C61D16F90E00456697 /* icon_tabbar_home_selected.png in Resources */,
 				F446C7EE1D0DC22100433F58 /* ImgViewCell.xib in Resources */,
+				F4AF18CD1D16F90E00456697 /* icon_tabbar_search.png in Resources */,
+				F4AF18CB1D16F90E00456697 /* icon_tabbar_me.png in Resources */,
 				F4348BE21D0C553100FDB6F6 /* LaunchScreen.storyboard in Resources */,
 				F4348C3E1D0C77AD00FDB6F6 /* DowlodViewCell.xib in Resources */,
 				F4348BDF1D0C553100FDB6F6 /* Assets.xcassets in Resources */,
 				F4348C391D0C6E3900FDB6F6 /* NewsViewCell.xib in Resources */,
 				F4348C341D0C6B3F00FDB6F6 /* LoginViewCell.xib in Resources */,
+				F4AF18C71D16F90E00456697 /* icon_tabbar_home.png in Resources */,
 				F446C7F81D0DC38200433F58 /* DynamicViewCell.xib in Resources */,
 				F4348BDD1D0C553100FDB6F6 /* Main.storyboard in Resources */,
 				F446C7F31D0DC27C00433F58 /* PopViewCell.xib in Resources */,
+				F4AF18CA1D16F90E00456697 /* icon_tabbar_me_selected.png in Resources */,
 				F4348C431D0C795800FDB6F6 /* OtherTableViewCell.xib in Resources */,
 				F446EFD51D157AF60074B1C9 /* PoPCollectionViewCell.xib in Resources */,
+				F4AF18CC1D16F90E00456697 /* icon_tabbar_search_selected.png in Resources */,
+				F4AF18C91D16F90E00456697 /* icon_tabbar_hot.png in Resources */,
+				F47C5FB31D1D99140099EE08 /* SearchNamePlist.plist in Resources */,
+				F47C5FB51D1DA6540099EE08 /* back_day@2x.png in Resources */,
+				F4AF18C81D16F90E00456697 /* icon_tabbar_hot_selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +643,7 @@
 				F42DB8641D0DA73200D4760C /* HomeViewController.m in Sources */,
 				F446C7ED1D0DC22100433F58 /* ImgViewCell.m in Sources */,
 				F4348C1C1D0C63AE00FDB6F6 /* UserViewController.m in Sources */,
+				F47C5FB11D1D95E60099EE08 /* SearchViewController.m in Sources */,
 				F4348C421D0C795800FDB6F6 /* OtherTableViewCell.m in Sources */,
 				F4348BD71D0C553100FDB6F6 /* AppDelegate.m in Sources */,
 				F4348BD41D0C553100FDB6F6 /* main.m in Sources */,

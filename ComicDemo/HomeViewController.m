@@ -25,6 +25,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //设置选择中的颜色
+   //[self.tabBarController.tabBar setTintColor:[UIColor orangeColor]];
+   // self.tabBarController.tabBar.selectedImageTintColor = [UIColor orangeColor];  IOS 8.0
     
     self.view.backgroundColor=[UIColor grayColor];
     self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, screen_width, screen_height) style:UITableViewStyleGrouped];
@@ -79,8 +82,8 @@
         
         if (cell == nil) {
             //IB中创建cell
-          //cell = [[[NSBundle mainBundle] loadNibNamed:@"ImgViewCell" owner:self options:nil] firstObject];
-            cell = [[ImgViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIndentifier];
+         cell = [[[NSBundle mainBundle] loadNibNamed:@"ImgViewCell" owner:self options:nil] firstObject];
+            
 
         }
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
@@ -116,7 +119,7 @@
             cell.titleLable.numberOfLines=0;
             cell.contentLable.text=content;
             
-            
+
             NSString *imgString=dic[@"img"];
             NSURL *imgURL=[NSURL URLWithString:imgString];
             
